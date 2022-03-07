@@ -1,0 +1,107 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+
+  margin: 0 auto;
+}
+
+.landing-page{
+  font-family: 'Bebas Neue', cursive;
+  background-color: black;
+  color: white;
+}
+
+header{
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+nav.nav{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.hub{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 36px;
+}
+
+.title-main{
+  font-size: 130px;
+}
+
+.scroll{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  width: 120px;
+}
+
+.gradient {
+  display: flex;
+  background: linear-gradient(to bottom, black, white);
+  width: 100%;
+  height: 100px;
+}
+
+.reseaux{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.NFT{
+  margin: 40px;
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+}
+
+.IG{
+  margin: 40px;
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+}
+
+.TW{
+  margin: 40px;
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+}
+
+.YT{
+  margin: 40px;
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+}
+
+.content{
+  font-family: 'Signika', sans-serif;
+  font-weight: bold;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.bottom{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
